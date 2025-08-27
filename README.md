@@ -1,19 +1,45 @@
-# Hi, I'm Syrine 👋
+# Syrine Chehairi — Projects & Portfolio
 
-**Ingénieure Logicielle & Data (Python)** — SupGalilée 2025.  
-J’aime construire des solutions **propres, testées et mesurables**.
+Ingénieure **Logicielle & Data** (SupGalilée 2025).  
+J’aime construire des solutions **propres, testées et mesurables** (Python/SQL/Docker/Tests, Data/ML & Backend).
 
-- 🔧 Stack : Python · SQL · pandas/NumPy · PyTest · Docker · Git · Linux · Django/React (bases)
-- 📊 Data/ML : pipelines, qualité, métriques, Monte Carlo (simulation d’incertitudes)
-- 🧪 Culture: tests, traçabilité (V&V), perf & doc
+- 🌐 **Portfolio (Streamlit)** : <https://<ton-sous-domaine>.hf.space>  
+- 💼 LinkedIn : <https://www.linkedin.com/in/<ton-handle>>  
+- 📧 Contact : syrine.chehairi@hotmail.com
 
-**Portfolio** → https://ton-url.hf.space  
-**LinkedIn** → https://www.linkedin.com/in/ton-handle
+---
 
-## Projects (selection)
-- **Monte Carlo Uncertainty (Python)** – simulation & optimisation, tests PyTest, doc
-- **Herbier ETL (>6M images)** – pipeline, stockage, restitution (notes publiques)
-- **DIRIF Viz** – outil de visualisation pour équipes terrain
-- **Portfolio Streamlit** – ce site
+## Table des matières
+- [1. Portfolio (Streamlit)](#1-portfolio-streamlit)
+- [2. Recycl-App (JavaScript)](#2-recycl-app-javascript)
+- [3. Mini-jeux (Python)](#3-mini-jeux-python)
+- [4. Monte Carlo — Simulation d’incertitudes](#4-monte-carlo--simulation-dincertitudes)
+- [5. PlantAI — Classification de plantes](#5-plantai--classification-de-plantes)
+- [6. Licences](#6-licences)
 
-> ⚠️ Certains projets sont issus d’environnements réglementés : je publie **code anonymisé/extraits** + **README détaillés** (design, perfs, limites).
+---
+
+## 1) Portfolio (Streamlit)
+
+**Repo** : <https://github.com/<user>/portfolio>  
+**Démo** : <https://<ton-sous-domaine>.hf.space>
+
+Portfolio **Streamlit** multipage (pastel, responsive) pour présenter compétences, projets et expériences.
+
+### ✨ Fonctionnalités
+- Barre de navigation **sticky** (pastel)
+- Pages : Accueil, Compétences, Projets (descriptions), Expériences, Formations, Contact
+- Cartes + tags, design sobre
+
+### 🧰 Stack
+Python 3.10+, Streamlit, Pillow
+
+### ▶️ Lancer en local
+```bash
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app.py
